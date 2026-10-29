@@ -19,17 +19,18 @@ SOURCES = [
 ]
 
 HEADERS = {
-    "User-Agent": "LaunchRadarBot/1.0 (product discovery)"
+    "User-Agent": "Mozilla/5.0 (compatible; LaunchRadarBot/1.0)"
 }
 
 CATEGORY_RULES = {
     "Android Apps": [
-        "android app", "google play", "play store", "mobile app",
-        "android", "iphone app", "ios app"
+        "android app", "google play", "play store",
+        "mobile app", "android", "ios app", "iphone app"
     ],
     "AI Tools": [
-        "artificial intelligence", "ai tool", "ai-powered", "ai powered",
-        "chatgpt", "llm", "machine learning", "ai agent", "generative ai"
+        "artificial intelligence", "ai tool", "ai-powered",
+        "ai powered", "chatgpt", "llm", "machine learning",
+        "ai agent", "generative ai"
     ],
     "Free Online Tools": [
         "online tool", "converter", "generator", "formatter",
@@ -37,7 +38,7 @@ CATEGORY_RULES = {
     ],
     "Developer Projects": [
         "open source", "github", "developer tool", "api",
-        "programming", "self-hosted", "cli tool"
+        "programming", "self-hosted", "cli tool", "library"
     ],
     "New Websites": [
         "website", "web app", "webapp", "platform", "saas",
@@ -47,23 +48,26 @@ CATEGORY_RULES = {
 
 
 def clean_text(value):
-    soup = BeautifulSoup(value or "", "html.parser")
-    return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
+    return re.sub(
+        r"\s+", " ",
+        BeautifulSoup(value or "", "html.parser").get_text(" ", strip=True)
+    ).strip()
 
 
 def normalize_url(url):
     try:
         parts = urlsplit(url.strip())
         if parts.scheme not in ("http", "https") or not parts.netloc:
-            return url.strip()
+            return ""
 
         ignored = {
             "utm_source", "utm_medium", "utm_campaign",
             "utm_term", "utm_content", "ref", "fbclid", "gclid"
         }
         query = [
-            (k, v) for k, v in parse_qsl(parts.query)
-            if k.lower() not in ignored
+            (key, value)
+            for key, value in parse_qsl(parts.query)
+            if key.lower() not in ignored
         ]
 
         return urlunsplit((
@@ -74,7 +78,7 @@ def normalize_url(url):
             ""
         ))
     except Exception:
-        return url.strip()
+        return ""
 
 
 def classify(title, description):
@@ -87,56 +91,96 @@ def classify(title, description):
     return "Needs Review"
 
 
-def get_official_website(product_url):
-    """Try to find an external official website from a Product Hunt page."""
+def find_hn_project_url(description):
+    """Find a plausible project link from a Hacker News description."""
+    soup = BeautifulSoup(description or "", "html.parser")
+
+    # Prefer the explicitly labelled Article URL when present.
+    text = soup.get_text(" ", strip=True)
+    match = re.search(
+        r"Article URL:\s*(https?://\S+)",
+        text,
+        re.IGNORECASE
+    )
+    if match:
+        candidate = normalize_url(match.group(1).rstrip(".,);"))
+        if candidate and "news.ycombinator.com" not in candidate:
+            return candidate
+
+    # Otherwise prefer a GitHub project link if one is present.
+    links = [
+        normalize_url(a.get("href", ""))
+        for a in soup.find_all("a", href=True)
+    ]
+    for link in links:
+        if link and "github.com" in urlsplit(link).netloc.lower():
+            return link
+
+    # Fall back to an external URL in the text, excluding HN comments.
+    for candidate in re.findall(r"https?://[^\s<>\"']+", text):
+        candidate = normalize_url(candidate.rstrip(".,);"))
+        if not candidate:
+            continue
+        host = urlsplit(candidate).netloc.lower()
+        if "news.ycombinator.com" in host:
+            continue
+        return candidate
+
+    return ""
+
+
+def find_producthunt_website(product_url):
+    """Try multiple page signals; blank means the official site was not found."""
     try:
         response = requests.get(
             product_url,
             headers=HEADERS,
-            timeout=15
+            timeout=20
         )
-        if response.status_code != 200:
-            return ""
-
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # First try common structured metadata.
-        for key in ("og:url", "og:see_also"):
-            tag = soup.find("meta", property=key)
-            if tag and tag.get("content"):
-                candidate = tag["content"].strip()
-                if candidate.startswith(("http://", "https://")):
-                    host = urlsplit(candidate).netloc.lower()
-                    if "producthunt.com" not in host:
-                        return normalize_url(candidate)
-
-        # Then look for links explicitly labelled as the product's website.
-        for link in soup.find_all("a", href=True):
-            label = clean_text(
-                " ".join([
-                    link.get_text(" ", strip=True),
-                    link.get("aria-label", ""),
-                    link.get("title", "")
-                ])
+        # Look for common metadata attributes that may contain the website.
+        for tag in soup.find_all("meta"):
+            key = (
+                tag.get("property", "") + " " +
+                tag.get("name", "")
             ).lower()
+            value = tag.get("content", "").strip()
 
-            href = link["href"].strip()
-            if not href.startswith(("http://", "https://")):
+            if not value.startswith(("https://", "http://")):
+                continue
+
+            if any(word in key for word in (
+                "og:see_also", "product:website", "website", "twitter:url"
+            )):
+                host = urlsplit(value).netloc.lower()
+                if host and "producthunt.com" not in host:
+                    return normalize_url(value)
+
+        # Look for links whose visible label clearly indicates a website.
+        for link in soup.find_all("a", href=True):
+            href = normalize_url(link.get("href", ""))
+            if not href:
                 continue
 
             host = urlsplit(href).netloc.lower()
-            if "producthunt.com" in host:
+            if not host or "producthunt.com" in host:
                 continue
 
-            if any(term in label for term in (
-                "visit website", "website", "visit site", "launch website"
-            )):
-                return normalize_url(href)
+            label = clean_text(
+                link.get_text(" ", strip=True) + " " +
+                link.get("aria-label", "") + " " +
+                link.get("title", "")
+            ).lower()
 
-    except requests.RequestException as error:
-        print(f"Website lookup failed for {product_url}: {error}")
+            if any(term in label for term in (
+                "visit website", "visit site", "website", "launch website"
+            )):
+                return href
+
     except Exception as error:
-        print(f"Could not inspect {product_url}: {error}")
+        print(f"Could not inspect Product Hunt page: {error}")
 
     return ""
 
@@ -157,7 +201,7 @@ def discover_products():
     existing = load_existing()
     products_by_url = {}
 
-    # Retain existing valid candidates, removing unrelated Hacker News posts.
+    # Keep previously saved valid candidates and update missing fields.
     for item in existing:
         title = clean_text(item.get("title", ""))
         url = normalize_url(item.get("url", ""))
@@ -175,10 +219,16 @@ def discover_products():
         item["url"] = url
         item["description"] = clean_text(
             item.get("description", "")
-        )[:2000]
+        )[:3000]
         item["label"] = classify(title, item["description"])
         item.setdefault("official_website", "")
         item.setdefault("status", "needs_review")
+
+        # Recover an HN project URL from its stored description if possible.
+        if source == "Hacker News" and not item["official_website"]:
+            item["official_website"] = find_hn_project_url(
+                item["description"]
+            )
 
         products_by_url[url] = item
 
@@ -192,10 +242,12 @@ def discover_products():
 
             for entry in feed.entries[:MAX_ITEMS]:
                 title = clean_text(entry.get("title", ""))
-                url = normalize_url(entry.get("link", ""))
-                description = clean_text(
-                    entry.get("summary", entry.get("description", ""))
-                )[:2000]
+                raw_url = entry.get("link", "").strip()
+                url = normalize_url(raw_url)
+                raw_description = entry.get(
+                    "summary", entry.get("description", "")
+                )
+                description = clean_text(raw_description)[:3000]
 
                 if not title or not url:
                     continue
@@ -209,11 +261,15 @@ def discover_products():
                         continue
 
                 if url in products_by_url:
+                    # Do not overwrite existing records just because they
+                    # appeared in the feed again.
                     continue
 
                 official_website = ""
-                if source["name"] == "Product Hunt":
-                    official_website = get_official_website(url)
+                if source["name"] == "Hacker News":
+                    official_website = find_hn_project_url(raw_description)
+                elif source["name"] == "Product Hunt":
+                    official_website = find_producthunt_website(url)
 
                 product = {
                     "id": hashlib.sha256(
@@ -248,7 +304,8 @@ def discover_products():
 
     print(f"New candidates added: {added}")
     print(f"Total candidates saved: {len(products)}")
-    print("Official website may be blank if it could not be verified.")
+    print("Blank official_website means no suitable link was found.")
+    print("Review all candidates before publishing.")
     print("No Blogger posts were published.")
 
 
