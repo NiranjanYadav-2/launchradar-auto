@@ -1,5 +1,49 @@
 [
   {
+    "id": "300e55c1e23deaf8",
+    "title": "Show HN: System Design Articles from Companies",
+    "description": "Article URL: https://abhishekr3.github.io/rss-system-design/index.html Comments URL: https://news.ycombinator.com/item?id=50293125 Points: 1 # Comments: 1",
+    "url": "https://abhishekr3.github.io/rss-system-design/index.html",
+    "official_website": "",
+    "source": "Hacker News",
+    "label": "Developer Projects",
+    "discovered_at": "2026-10-29T17:59:35.717400+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "87a86deb303cdd3b",
+    "title": "Show HN: Sheetgraph, AI agents can understand complex spreadsheets",
+    "description": "Hi guys, I built a tool www.lovespreadsheets.com earlier this year and a huge problem we kept running into is processing messy, real-world, complex spreadsheets for AI agents. Even a \"medium\" sized spreadsheet converts to about 1m+ tokens if read fully, which immediately blows up the current context windows of most models. So I noticed most agents sample data from spreadsheets in chunks instead. So I (& Claude) built this library Sheetgraph, https://github.com/asharma327/sheetgraph , to compress spreadsheets (~100x compression) while still maintaining their structure (like a dependency graph for formulas) & other relevant metadata such as macros, cell data types, formatting. There is a zipped full workbook of the spreadsheet as well for the agent to lookup data as needed. Still rough around the edges so would love any feedback on both the idea and any details. This is used in our primary product + services platform Love Spreadsheets so we are actively maintaining and improving it. Thanks! Comments URL: https://news.ycombinator.com/item?id=50293148 Points: 1 # Comments: 0",
+    "url": "https://github.com/asharma327/sheetgraph",
+    "official_website": "",
+    "source": "Hacker News",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:59:35.717127+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "2fd02a196552cb6c",
+    "title": "Show HN: We mapped data center regulations across 50 states and 1,462 localities",
+    "description": "Hi HN! My company Regbase tracks regulatory developments around the world for compliance teams at major corporations. Ahead of the midterm elections we decided to do an in-depth survey of all state and local regulations around data centers. We built an interactive map showing the data center policies across the United States. It covers all 50 states and 1,462 localities across legislation, regulations and executive orders. We collected and analyzed the data using our platform. Every result has a link to the official source so you can read the policy for yourself. Here's some interesting things we learned: - Moratoriums (temporary bans) are the most common instrument. We counted 1,010 in total with an average duration of 10 months. - Starting around October 2025, most policies switched from tax incentives to bans and restrictions. This correlates with increased energy prices and worsening public sentiment towards AI. - When construction is allowed, it's very common for protections to be put in place particularly around electricity and less for water. Many of the bans are actually refusals to issue these licenses. We would love your feedback! In particular please let us know if there is any other data that would be useful or interesting to see. Comments URL: https://news.ycombinator.com/item?id=50293153 Points: 1 # Comments: 0",
+    "url": "https://regbase.com/datacenters",
+    "official_website": "",
+    "source": "Hacker News",
+    "label": "New Websites",
+    "discovered_at": "2026-10-29T17:59:35.716659+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "26da359babfe37e6",
+    "title": "Show HN: Catena – lazy sequences for Go where errors are elements",
+    "description": "Article URL: https://github.com/NerdMeNot/catena Comments URL: https://news.ycombinator.com/item?id=50293156 Points: 1 # Comments: 0",
+    "url": "https://github.com/NerdMeNot/catena",
+    "official_website": "",
+    "source": "Hacker News",
+    "label": "Developer Projects",
+    "discovered_at": "2026-10-29T17:59:35.716156+00:00",
+    "status": "needs_review"
+  },
+  {
     "id": "127639cc62d76a80",
     "title": "Basedash View-only members",
     "description": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
@@ -7,7 +51,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675861+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "b50df6e285fd1fb7",
@@ -17,7 +62,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675732+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "73f912cf049f6f59",
@@ -27,7 +73,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675602+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "44e50d3caaed1d38",
@@ -37,7 +84,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675475+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "ca7accf7899815ae",
@@ -47,7 +95,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675349+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "1897925dbdda805e",
@@ -57,7 +106,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675225+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "f19879aff52c1d28",
@@ -67,7 +117,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.675096+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "8996468e36a2d2c9",
@@ -77,7 +128,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674959+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "ec3ad651cd2df03b",
@@ -87,7 +139,8 @@
     "source": "Product Hunt",
     "label": "New Websites",
     "discovered_at": "2026-10-29T17:53:02.674749+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "494aab68a3420fb5",
@@ -97,7 +150,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674623+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "5374932a819cbc70",
@@ -107,7 +161,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674490+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "7a7e3fdce7c17ca7",
@@ -117,7 +172,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674366+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "2077b3dd20118e78",
@@ -127,7 +183,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674240+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "6c09a5e29d2f6772",
@@ -137,7 +194,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.674111+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "167a9429100983a6",
@@ -147,7 +205,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673978+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "2232686de666a88f",
@@ -157,7 +216,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673853+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "90a1bc8cad6a3638",
@@ -167,7 +227,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673725+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "764b4d74269fdfeb",
@@ -177,7 +238,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673596+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "0401dd5d09d4fe38",
@@ -187,7 +249,8 @@
     "source": "Product Hunt",
     "label": "AI Tools",
     "discovered_at": "2026-10-29T17:53:02.673467+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "2f66329c0b32f5ab",
@@ -197,7 +260,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673339+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "ff0591300f007cef",
@@ -207,7 +271,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673209+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "7e640f6994d5f60f",
@@ -217,7 +282,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.673074+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "7ddf0d3de558cc05",
@@ -227,7 +293,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672855+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "28ca2f21fbc63707",
@@ -237,7 +304,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672728+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "86b8179cced74121",
@@ -247,7 +315,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672600+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "d9e0a8121201c4ef",
@@ -257,7 +326,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672473+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "aff3ee3326fe842c",
@@ -267,7 +337,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672344+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "9792fbb896fe9c60",
@@ -277,7 +348,8 @@
     "source": "Product Hunt",
     "label": "Android Apps",
     "discovered_at": "2026-10-29T17:53:02.672216+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "902ef6036dced0f2",
@@ -287,7 +359,8 @@
     "source": "Product Hunt",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:53:02.672079+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "id": "c8fda061ae8e7205",
@@ -297,7 +370,8 @@
     "source": "Product Hunt",
     "label": "AI Tools",
     "discovered_at": "2026-10-29T17:53:02.669581+00:00",
-    "status": "needs_review"
+    "status": "needs_review",
+    "official_website": ""
   },
   {
     "title": "Confetti",
@@ -305,7 +379,9 @@
     "url": "https://www.producthunt.com/products/confetti-5",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363741+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363741+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Gemini 4 Carbon",
@@ -313,7 +389,9 @@
     "url": "https://www.producthunt.com/products/gemini-4-carbon",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363737+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363737+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Notch Metrics",
@@ -321,7 +399,9 @@
     "url": "https://www.producthunt.com/products/notch-metrics",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363732+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363732+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Intrascope 2.0",
@@ -329,7 +409,9 @@
     "url": "https://www.producthunt.com/products/intrascope-app",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363728+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363728+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Radar",
@@ -337,7 +419,9 @@
     "url": "https://www.producthunt.com/products/radar-7",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363724+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363724+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Smart Jelly",
@@ -345,7 +429,9 @@
     "url": "https://www.producthunt.com/products/smart-jelly",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363720+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363720+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "JIMMY",
@@ -353,7 +439,9 @@
     "url": "https://www.producthunt.com/products/jimmy",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363716+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363716+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "AutoShelf 2.6",
@@ -361,7 +449,9 @@
     "url": "https://www.producthunt.com/products/autoshelf",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363712+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363712+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Suno MCP",
@@ -369,7 +459,9 @@
     "url": "https://www.producthunt.com/products/suno",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363707+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363707+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Voxel51 Multimodal",
@@ -377,7 +469,9 @@
     "url": "https://www.producthunt.com/products/voxel51",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363703+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363703+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Empacer",
@@ -385,7 +479,9 @@
     "url": "https://www.producthunt.com/products/empacer",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363699+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363699+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "ChatInbox",
@@ -393,7 +489,9 @@
     "url": "https://www.producthunt.com/products/chatinbox-2",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363695+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363695+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "OutreachGuy",
@@ -401,7 +499,9 @@
     "url": "https://www.producthunt.com/products/outreachguy",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363691+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363691+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "IFTTT.ai",
@@ -409,7 +509,9 @@
     "url": "https://www.producthunt.com/products/ifttt",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363687+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363687+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Viggle JST-2",
@@ -417,7 +519,9 @@
     "url": "https://www.producthunt.com/products/viggle-ai",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363682+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363682+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "TopAgent",
@@ -425,7 +529,9 @@
     "url": "https://www.producthunt.com/products/topmessage",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363678+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363678+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Scape",
@@ -433,7 +539,9 @@
     "url": "https://www.producthunt.com/products/scape-4",
     "source": "Product Hunt",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.363673+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363673+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Polylane for ChatGPT",
@@ -441,7 +549,9 @@
     "url": "https://www.producthunt.com/products/polylane",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363668+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363668+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Floot in ChatGPT",
@@ -449,7 +559,9 @@
     "url": "https://www.producthunt.com/products/floot",
     "source": "Product Hunt",
     "label": "AI Tools",
-    "discovered_at": "2026-10-29T17:47:49.363662+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363662+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Arco",
@@ -457,7 +569,9 @@
     "url": "https://www.producthunt.com/products/arco-4",
     "source": "Product Hunt",
     "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.363643+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363643+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Show HN: Makr – find nearby co-founders",
@@ -465,7 +579,9 @@
     "url": "https://makr.breadbowl.ai/",
     "source": "Hacker News",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.206203+00:00"
+    "discovered_at": "2026-10-29T17:47:49.206203+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Show HN: Rankings of the state of the art, each figure sourced from the maker",
@@ -473,7 +589,9 @@
     "url": "https://tminuslabs.space/",
     "source": "Hacker News",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.206195+00:00"
+    "discovered_at": "2026-10-29T17:47:49.206195+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Show HN: Playmat – Browser client for XMage, the open-source MTG engine",
@@ -481,7 +599,9 @@
     "url": "https://github.com/arcanite24/playmat",
     "source": "Hacker News",
     "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206176+00:00"
+    "discovered_at": "2026-10-29T17:47:49.206176+00:00",
+    "official_website": "",
+    "status": "needs_review"
   },
   {
     "title": "Show HN: Pretty Git Tree – Your Git history as generative art",
@@ -489,6 +609,8 @@
     "url": "https://hmillerbakewell.github.io/pretty-git-tree",
     "source": "Hacker News",
     "label": "Needs Review",
-    "discovered_at": "2026-10-29T17:47:49.206146+00:00"
+    "discovered_at": "2026-10-29T17:47:49.206146+00:00",
+    "official_website": "",
+    "status": "needs_review"
   }
 ]
