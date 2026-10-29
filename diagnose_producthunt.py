@@ -1,33 +1,27 @@
 
-import feedparser
+import requests
 
-FEED_URL = "https://www.producthunt.com/feed"
-
+TEST_URL = "https://www.producthunt.com/r/p/1296248?app_id=339"
 
 def main():
-    print("Checking Product Hunt RSS feed...")
-    feed = feedparser.parse(FEED_URL)
+    print("Testing Product Hunt redirect...")
+    try:
+        response = requests.get(
+            TEST_URL,
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=25,
+            allow_redirects=True
+        )
 
-    print("Feed status:", getattr(feed, "status", "unknown"))
-    print("Feed bozo:", feed.bozo)
-    print("Entries found:", len(feed.entries))
+        print("HTTP status:", response.status_code)
+        print("Final URL:", response.url)
+        print("Redirect count:", len(response.history))
 
-    for entry in feed.entries[:5]:
-        print("\n---")
-        print("Title:", entry.get("title", ""))
-        print("Product Hunt URL:", entry.get("link", ""))
+        for item in response.history:
+            print("Redirect:", item.status_code, "->", item.headers.get("Location", ""))
 
-        for key in ("summary", "description", "content"):
-            value = entry.get(key, "")
-            if isinstance(value, list):
-                value = " ".join(
-                    str(item.get("value", "")) for item in value
-                )
-            if value:
-                print(key.title() + ":", str(value)[:1200])
-
-    print("\nRSS diagnostic finished.")
-
+    except requests.RequestException as error:
+        print("Request failed:", error)
 
 if __name__ == "__main__":
     main()
