@@ -1,7 +1,18 @@
-name: LaunchRadar Product Discovery
+
+name: LaunchRadar Automation
 
 on:
   workflow_dispatch:
+    inputs:
+      task:
+        description: "Choose what to run"
+        required: true
+        default: "discover"
+        type: choice
+        options:
+          - discover
+          - diagnose
+
   schedule:
     - cron: "0 3 * * *"
 
@@ -10,6 +21,7 @@ permissions:
 
 jobs:
   discover:
+    if: github.event_name == 'schedule' || inputs.task == 'discover'
     runs-on: ubuntu-latest
 
     steps:
@@ -34,3 +46,22 @@ jobs:
           git add discoveries.json
           git diff --cached --quiet || git commit -m "Update product discoveries"
           git push
+
+  diagnose:
+    if: github.event_name == 'workflow_dispatch' && inputs.task == 'diagnose'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Diagnose Product Hunt
+        run: python diagnose_producthunt.py
