@@ -1,10 +1,65 @@
 [
   {
+    "id": "208a7fca582f2b8e",
+    "title": "Show HN: I built a local-first CVE triage app in Rust",
+    "description": "Article URL: https://github.com/Fazmin/cve-intel Comments URL: https://news.ycombinator.com/item?id=50293260 Points: 1 # Comments: 0",
+    "url": "https://github.com/Fazmin/cve-intel",
+    "official_website": "https://github.com/Fazmin/cve-intel",
+    "source": "Hacker News",
+    "label": "Developer Projects",
+    "discovered_at": "2026-10-29T18:06:40.359747+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "a6903c36452a2b4a",
+    "title": "Show HN: An open-source app for IELTS preparation",
+    "description": "Article URL: https://github.com/Luxshan2000/ielts-prep Comments URL: https://news.ycombinator.com/item?id=50293287 Points: 1 # Comments: 0",
+    "url": "https://github.com/Luxshan2000/ielts-prep",
+    "official_website": "https://github.com/Luxshan2000/ielts-prep",
+    "source": "Hacker News",
+    "label": "Developer Projects",
+    "discovered_at": "2026-10-29T18:06:40.359173+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "3806aadc0d39ab33",
+    "title": "Show HN: Capo-S3 – a typed, async-first S3 client for Python",
+    "description": "Article URL: https://pypi.org/project/capo-s3/ Comments URL: https://news.ycombinator.com/item?id=50293303 Points: 1 # Comments: 0",
+    "url": "https://pypi.org/project/capo-s3",
+    "official_website": "https://pypi.org/project/capo-s3",
+    "source": "Hacker News",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T18:06:40.358592+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "0fb3fa4c48c08212",
+    "title": "App Store Screenshots",
+    "description": "Your coding agent designs your app store screenshots Discussion | Link",
+    "url": "https://www.producthunt.com/products/app-store-screenshots",
+    "official_website": "",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T18:06:40.260227+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "883ed7c8b73484c6",
+    "title": "Zest",
+    "description": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
+    "url": "https://www.producthunt.com/products/zest-6",
+    "official_website": "",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T18:06:40.223575+00:00",
+    "status": "needs_review"
+  },
+  {
     "id": "300e55c1e23deaf8",
     "title": "Show HN: System Design Articles from Companies",
     "description": "Article URL: https://abhishekr3.github.io/rss-system-design/index.html Comments URL: https://news.ycombinator.com/item?id=50293125 Points: 1 # Comments: 1",
     "url": "https://abhishekr3.github.io/rss-system-design/index.html",
-    "official_website": "",
+    "official_website": "https://abhishekr3.github.io/rss-system-design/index.html",
     "source": "Hacker News",
     "label": "Developer Projects",
     "discovered_at": "2026-10-29T17:59:35.717400+00:00",
@@ -15,7 +70,7 @@
     "title": "Show HN: Sheetgraph, AI agents can understand complex spreadsheets",
     "description": "Hi guys, I built a tool www.lovespreadsheets.com earlier this year and a huge problem we kept running into is processing messy, real-world, complex spreadsheets for AI agents. Even a \"medium\" sized spreadsheet converts to about 1m+ tokens if read fully, which immediately blows up the current context windows of most models. So I noticed most agents sample data from spreadsheets in chunks instead. So I (& Claude) built this library Sheetgraph, https://github.com/asharma327/sheetgraph , to compress spreadsheets (~100x compression) while still maintaining their structure (like a dependency graph for formulas) & other relevant metadata such as macros, cell data types, formatting. There is a zipped full workbook of the spreadsheet as well for the agent to lookup data as needed. Still rough around the edges so would love any feedback on both the idea and any details. This is used in our primary product + services platform Love Spreadsheets so we are actively maintaining and improving it. Thanks! Comments URL: https://news.ycombinator.com/item?id=50293148 Points: 1 # Comments: 0",
     "url": "https://github.com/asharma327/sheetgraph",
-    "official_website": "",
+    "official_website": "https://github.com/asharma327/sheetgraph",
     "source": "Hacker News",
     "label": "AI Tools",
     "discovered_at": "2026-10-29T17:59:35.717127+00:00",
@@ -37,7 +92,7 @@
     "title": "Show HN: Catena – lazy sequences for Go where errors are elements",
     "description": "Article URL: https://github.com/NerdMeNot/catena Comments URL: https://news.ycombinator.com/item?id=50293156 Points: 1 # Comments: 0",
     "url": "https://github.com/NerdMeNot/catena",
-    "official_website": "",
+    "official_website": "https://github.com/NerdMeNot/catena",
     "source": "Hacker News",
     "label": "Developer Projects",
     "discovered_at": "2026-10-29T17:59:35.716156+00:00",
@@ -580,7 +635,7 @@
     "source": "Hacker News",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:47:49.206203+00:00",
-    "official_website": "",
+    "official_website": "https://makr.breadbowl.ai/",
     "status": "needs_review"
   },
   {
@@ -590,7 +645,7 @@
     "source": "Hacker News",
     "label": "Needs Review",
     "discovered_at": "2026-10-29T17:47:49.206195+00:00",
-    "official_website": "",
+    "official_website": "https://tminuslabs.space/",
     "status": "needs_review"
   },
   {
@@ -600,7 +655,7 @@
     "source": "Hacker News",
     "label": "Developer Projects",
     "discovered_at": "2026-10-29T17:47:49.206176+00:00",
-    "official_website": "",
+    "official_website": "https://github.com/arcanite24/playmat",
     "status": "needs_review"
   },
   {
