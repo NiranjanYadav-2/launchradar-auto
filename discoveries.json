@@ -1,322 +1,494 @@
 [
   {
-    "title": "Canada to invest up to $1.6B in Toronto-based AI company Cohere",
-    "description": "<p>Article URL: <a href=\"https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367\">https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50293004\">https://news.ycombinator.com/item?id=50293004</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-    "url": "https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206120+00:00"
+    "id": "127639cc62d76a80",
+    "title": "Basedash View-only members",
+    "description": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
+    "url": "https://www.producthunt.com/products/basedash",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675861+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Muscle Memory",
-    "description": "<p>Article URL: <a href=\"https://my.clevelandclinic.org/health/articles/muscle-memory\">https://my.clevelandclinic.org/health/articles/muscle-memory</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292995\">https://news.ycombinator.com/item?id=50292995</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
-    "url": "https://my.clevelandclinic.org/health/articles/muscle-memory",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206141+00:00"
+    "id": "b50df6e285fd1fb7",
+    "title": "Genie 4",
+    "description": "Turn a prompt into a living world you can steer Discussion | Link",
+    "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675732+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Show HN: Pretty Git Tree – Your Git history as generative art",
-    "description": "<p>I've spent months building something complex and (so far) invisible. I know that the number of commits, branches, merges etc. aren't proof of progress, but what I needed was a way to represent the amount of effort I'd put in that wasn't \"proximity to burnout\".<p>Pretty-git-tree takes in your git history (just the commit structure, and it stays local to your browser) and gives you a visually interesting representation of it. For my own projects I use the \"qubits\" style which winds a quantum circuit around a space-filling curve. I've included snapshots of some famous git repositories as well.<p>I didn't want to just use the standard git tree, because I felt that there were so many different ways of exploring the data - plus I wanted it to look good at the top of a weekly standup report. I've included the four styles I expect people to use, plus another 15 or so styles in the repo where I wanted to try things out (like rendering the branches as tower-blocks in a city, or kintsugi fractures). The repo itself is MIT licensed, and suggestions are welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292976\">https://news.ycombinator.com/item?id=50292976</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-    "url": "https://hmillerbakewell.github.io/pretty-git-tree/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206146+00:00"
+    "id": "73f912cf049f6f59",
+    "title": "Open For sales",
+    "description": "Your next sales campaign is one prompt away Discussion | Link",
+    "url": "https://www.producthunt.com/products/open-for-sales",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675602+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Compose tasks, not implementations (2025)",
-    "description": "<p>Article URL: <a href=\"https://thesephist.com/posts/task-composition/\">https://thesephist.com/posts/task-composition/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292962\">https://news.ycombinator.com/item?id=50292962</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://thesephist.com/posts/task-composition/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206151+00:00"
+    "id": "44e50d3caaed1d38",
+    "title": "Our Silly Games",
+    "description": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+    "url": "https://www.producthunt.com/products/our-silly-games",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675475+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "What America Is Living Without",
-    "description": "<p>Article URL: <a href=\"https://www.nytimes.com/interactive/2026/10/28/opinion/american-dream-affordability.html\">https://www.nytimes.com/interactive/2026/10/28/opinion/american-dream-affordability.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292939\">https://news.ycombinator.com/item?id=50292939</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://www.nytimes.com/interactive/2026/10/28/opinion/american-dream-affordability.html",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206155+00:00"
+    "id": "ca7accf7899815ae",
+    "title": "Boltbar",
+    "description": "Spotlight-style AI chat for your Mac Discussion | Link",
+    "url": "https://www.producthunt.com/products/boltbar",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675349+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "What's on That Access Port?",
-    "description": "<p>Article URL: <a href=\"https://danielmangum.com/posts/whats-on-that-access-port/\">https://danielmangum.com/posts/whats-on-that-access-port/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292931\">https://news.ycombinator.com/item?id=50292931</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://danielmangum.com/posts/whats-on-that-access-port/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206160+00:00"
+    "id": "1897925dbdda805e",
+    "title": "LFM3 by Liquid AI",
+    "description": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+    "url": "https://www.producthunt.com/products/lfm2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675225+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Palantir shareholders want to know when they'll get their money back",
-    "description": "<p>Article URL: <a href=\"https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311\">https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292912\">https://news.ycombinator.com/item?id=50292912</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-    "url": "https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206164+00:00"
+    "id": "f19879aff52c1d28",
+    "title": "Agent Handshake by Fini",
+    "description": "Agent-to-agent customer support that holds its answer Discussion | Link",
+    "url": "https://www.producthunt.com/products/fini-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.675096+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Orbit.net Extra Packages for Nats.io",
-    "description": "<p>Article URL: <a href=\"https://github.com/synadia-io/orbit.net\">https://github.com/synadia-io/orbit.net</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292905\">https://news.ycombinator.com/item?id=50292905</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
-    "url": "https://github.com/synadia-io/orbit.net",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206168+00:00"
+    "id": "8996468e36a2d2c9",
+    "title": "throxy",
+    "description": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+    "url": "https://www.producthunt.com/products/throxy-yc-p25",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674959+00:00",
+    "status": "needs_review"
   },
   {
-    "title": "Shovel Brigade",
-    "description": "<p>Article URL: <a href=\"https://www.shovel-brigade.cloud/\">https://www.shovel-brigade.cloud/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292886\">https://news.ycombinator.com/item?id=50292886</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://www.shovel-brigade.cloud/",
-    "source": "Hacker News",
+    "id": "ec3ad651cd2df03b",
+    "title": "RageLayer",
+    "description": "Let visitors smash your website, then sweep it back Discussion | Link",
+    "url": "https://www.producthunt.com/products/ragelayer",
+    "source": "Product Hunt",
+    "label": "New Websites",
+    "discovered_at": "2026-10-29T17:53:02.674749+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "494aab68a3420fb5",
+    "title": "Tulu",
+    "description": "Autonomous marketing operations & analytics for SMBs Discussion | Link",
+    "url": "https://www.producthunt.com/products/tulu",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674623+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "5374932a819cbc70",
+    "title": "BotGauge",
+    "description": "The trust layer for your agents Discussion | Link",
+    "url": "https://www.producthunt.com/products/botgauge-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674490+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "7a7e3fdce7c17ca7",
+    "title": "Zro: Uncensored Security Models",
+    "description": "Abliterated open models for security work Discussion | Link",
+    "url": "https://www.producthunt.com/products/zro",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674366+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "2077b3dd20118e78",
+    "title": "bytemail",
+    "description": "Native Mac email: every inbox, in your notch, no trackers Discussion | Link",
+    "url": "https://www.producthunt.com/products/bytemail",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674240+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "6c09a5e29d2f6772",
+    "title": "Yardlet",
+    "description": "The Mac app for the coding agents you already use Discussion | Link",
+    "url": "https://www.producthunt.com/products/yardlet-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.674111+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "167a9429100983a6",
+    "title": "AirPosture",
+    "description": "Now on Mac, with a voice coach in your AirPods Discussion | Link",
+    "url": "https://www.producthunt.com/products/airposture-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673978+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "2232686de666a88f",
+    "title": "NotiKeep",
+    "description": "Notification history for iPhone, on your device Discussion | Link",
+    "url": "https://www.producthunt.com/products/notikeep",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673853+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "90a1bc8cad6a3638",
+    "title": "Fraud Blocker",
+    "description": "AI ad fraud protection for Google and Meta ads Discussion | Link",
+    "url": "https://www.producthunt.com/products/fraud-blocker",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673725+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "764b4d74269fdfeb",
+    "title": "TONKO",
+    "description": "Pocket money app that teaches kids about money Discussion | Link",
+    "url": "https://www.producthunt.com/products/tonko",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673596+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "0401dd5d09d4fe38",
+    "title": "Hob",
+    "description": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+    "url": "https://www.producthunt.com/products/hob-3",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:53:02.673467+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "2f66329c0b32f5ab",
+    "title": "Congress Trades",
+    "description": "See how Congress members trade, and if copying them pays off Discussion | Link",
+    "url": "https://www.producthunt.com/products/alpha-vantage",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673339+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "ff0591300f007cef",
+    "title": "Recall for Mac",
+    "description": "Remember everything that happens on your Mac Discussion | Link",
+    "url": "https://www.producthunt.com/products/recall-for-mac",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673209+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "7e640f6994d5f60f",
+    "title": "Enclave",
+    "description": "One hover, everything you need. Discussion | Link",
+    "url": "https://www.producthunt.com/products/enclave-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.673074+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "7ddf0d3de558cc05",
+    "title": "Flatbread",
+    "description": "Share the whole agent run, not a screenshot Discussion | Link",
+    "url": "https://www.producthunt.com/products/flatbread",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672855+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "28ca2f21fbc63707",
+    "title": "Kin",
+    "description": "The AI labs want to own you. Make them answer to you. Discussion | Link",
+    "url": "https://www.producthunt.com/products/kin-6",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672728+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "86b8179cced74121",
+    "title": "AfterLid",
+    "description": "Keep your Mac working. Check in from your phone. Discussion | Link",
+    "url": "https://www.producthunt.com/products/afterlid",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672600+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "d9e0a8121201c4ef",
+    "title": "Reset Alerts",
+    "description": "Codex Reset Alerts via Text (Use it Before You Lose It) Discussion | Link",
+    "url": "https://www.producthunt.com/products/reset-alerts",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672473+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "aff3ee3326fe842c",
+    "title": "AssemblyAI",
+    "description": "text-to-speech built for voice agents Discussion | Link",
+    "url": "https://www.producthunt.com/products/assemblyai",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672344+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "9792fbb896fe9c60",
+    "title": "StoreLocale",
+    "description": "Translate app UI in App Store & Google Play screenshots Discussion | Link",
+    "url": "https://www.producthunt.com/products/storelocale",
+    "source": "Product Hunt",
+    "label": "Android Apps",
+    "discovered_at": "2026-10-29T17:53:02.672216+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "902ef6036dced0f2",
+    "title": "MAO",
+    "description": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
+    "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:53:02.672079+00:00",
+    "status": "needs_review"
+  },
+  {
+    "id": "c8fda061ae8e7205",
+    "title": "Gologin Cloud Browser",
+    "description": "Cloud browser for AI agents and tough sites Discussion | Link",
+    "url": "https://www.producthunt.com/products/gologin",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:53:02.669581+00:00",
+    "status": "needs_review"
+  },
+  {
+    "title": "Confetti",
+    "description": "Easiest way to build hardware gadgets using plain English Discussion | Link",
+    "url": "https://www.producthunt.com/products/confetti-5",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363741+00:00"
+  },
+  {
+    "title": "Gemini 4 Carbon",
+    "description": "Google's next frontier model Discussion | Link",
+    "url": "https://www.producthunt.com/products/gemini-4-carbon",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363737+00:00"
+  },
+  {
+    "title": "Notch Metrics",
+    "description": "Put your revenue and product analytics metrics in the notch Discussion | Link",
+    "url": "https://www.producthunt.com/products/notch-metrics",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363732+00:00"
+  },
+  {
+    "title": "Intrascope 2.0",
+    "description": "New AI agent, 1,650+ apps, Skills and smart model routing Discussion | Link",
+    "url": "https://www.producthunt.com/products/intrascope-app",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363728+00:00"
+  },
+  {
+    "title": "Radar",
+    "description": "You don't need an AI SRE. Give your agent Radar. Discussion | Link",
+    "url": "https://www.producthunt.com/products/radar-7",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363724+00:00"
+  },
+  {
+    "title": "Smart Jelly",
+    "description": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
+    "url": "https://www.producthunt.com/products/smart-jelly",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363720+00:00"
+  },
+  {
+    "title": "JIMMY",
+    "description": "JIMMY is an AI agent that runs on your PC Discussion | Link",
+    "url": "https://www.producthunt.com/products/jimmy",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363716+00:00"
+  },
+  {
+    "title": "AutoShelf 2.6",
+    "description": "Automate any folder on your Mac with if-this-then-that rules Discussion | Link",
+    "url": "https://www.producthunt.com/products/autoshelf",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363712+00:00"
+  },
+  {
+    "title": "Suno MCP",
+    "description": "The music layerfor your AI stack Discussion | Link",
+    "url": "https://www.producthunt.com/products/suno",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363707+00:00"
+  },
+  {
+    "title": "Voxel51 Multimodal",
+    "description": "Better data. Smarter robots. Repeat. Discussion | Link",
+    "url": "https://www.producthunt.com/products/voxel51",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363703+00:00"
+  },
+  {
+    "title": "Empacer",
+    "description": "The voice-first assistant for small business owners Discussion | Link",
+    "url": "https://www.producthunt.com/products/empacer",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363699+00:00"
+  },
+  {
+    "title": "ChatInbox",
+    "description": "Email that groups your inbox by contact Discussion | Link",
+    "url": "https://www.producthunt.com/products/chatinbox-2",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363695+00:00"
+  },
+  {
+    "title": "OutreachGuy",
+    "description": "The AI SDR that works the leads you never followed up Discussion | Link",
+    "url": "https://www.producthunt.com/products/outreachguy",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363691+00:00"
+  },
+  {
+    "title": "IFTTT.ai",
+    "description": "The easiest way to automate anything Discussion | Link",
+    "url": "https://www.producthunt.com/products/ifttt",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363687+00:00"
+  },
+  {
+    "title": "Viggle JST-2",
+    "description": "JST-2: 3D scenes, characters and motion from one model Discussion | Link",
+    "url": "https://www.producthunt.com/products/viggle-ai",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363682+00:00"
+  },
+  {
+    "title": "TopAgent",
+    "description": "Drive B2B event attendance with an AI agent Discussion | Link",
+    "url": "https://www.producthunt.com/products/topmessage",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363678+00:00"
+  },
+  {
+    "title": "Scape",
+    "description": "An intelligent email inbox that works for you Discussion | Link",
+    "url": "https://www.producthunt.com/products/scape-4",
+    "source": "Product Hunt",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.363673+00:00"
+  },
+  {
+    "title": "Polylane for ChatGPT",
+    "description": "Ask ChatGPT what broke in production Discussion | Link",
+    "url": "https://www.producthunt.com/products/polylane",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363668+00:00"
+  },
+  {
+    "title": "Floot in ChatGPT",
+    "description": "Build and publish real apps without leaving ChatGPT Discussion | Link",
+    "url": "https://www.producthunt.com/products/floot",
+    "source": "Product Hunt",
+    "label": "AI Tools",
+    "discovered_at": "2026-10-29T17:47:49.363662+00:00"
+  },
+  {
+    "title": "Arco",
+    "description": "GitHub and Linear issues, right inside your Codex Discussion | Link",
+    "url": "https://www.producthunt.com/products/arco-4",
+    "source": "Product Hunt",
     "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206172+00:00"
+    "discovered_at": "2026-10-29T17:47:49.363643+00:00"
+  },
+  {
+    "title": "Show HN: Makr – find nearby co-founders",
+    "description": "Article URL: https://makr.breadbowl.ai/ Comments URL: https://news.ycombinator.com/item?id=50292772 Points: 1 # Comments: 0",
+    "url": "https://makr.breadbowl.ai/",
+    "source": "Hacker News",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.206203+00:00"
+  },
+  {
+    "title": "Show HN: Rankings of the state of the art, each figure sourced from the maker",
+    "description": "Article URL: https://tminuslabs.space/ Comments URL: https://news.ycombinator.com/item?id=50292788 Points: 1 # Comments: 0",
+    "url": "https://tminuslabs.space/",
+    "source": "Hacker News",
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.206195+00:00"
   },
   {
     "title": "Show HN: Playmat – Browser client for XMage, the open-source MTG engine",
-    "description": "<p>Article URL: <a href=\"https://github.com/arcanite24/playmat\">https://github.com/arcanite24/playmat</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292839\">https://news.ycombinator.com/item?id=50292839</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+    "description": "Article URL: https://github.com/arcanite24/playmat Comments URL: https://news.ycombinator.com/item?id=50292839 Points: 1 # Comments: 0",
     "url": "https://github.com/arcanite24/playmat",
     "source": "Hacker News",
     "label": "Developer Projects",
     "discovered_at": "2026-10-29T17:47:49.206176+00:00"
   },
   {
-    "title": "Thursday: A SerenityOS for Myself",
-    "description": "<p>Article URL: <a href=\"https://shantaram.xyz/posts/2026/10/a-serenityos-for-myself\">https://shantaram.xyz/posts/2026/10/a-serenityos-for-myself</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292825\">https://news.ycombinator.com/item?id=50292825</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-    "url": "https://shantaram.xyz/posts/2026/10/a-serenityos-for-myself",
+    "title": "Show HN: Pretty Git Tree – Your Git history as generative art",
+    "description": "I've spent months building something complex and (so far) invisible. I know that the number of commits, branches, merges etc. aren't proof of progress, but what I needed was a way to represent the amount of effort I'd put in that wasn't \"proximity to burnout\". Pretty-git-tree takes in your git history (just the commit structure, and it stays local to your browser) and gives you a visually interesting representation of it. For my own projects I use the \"qubits\" style which winds a quantum circuit around a space-filling curve. I've included snapshots of some famous git repositories as well. I didn't want to just use the standard git tree, because I felt that there were so many different ways of exploring the data - plus I wanted it to look good at the top of a weekly standup report. I've included the four styles I expect people to use, plus another 15 or so styles in the repo where I wanted to try things out (like rendering the branches as tower-blocks in a city, or kintsugi fractures). The repo itself is MIT licensed, and suggestions are welcome. Comments URL: https://news.ycombinator.com/item?id=50292976 Points: 2 # Comments: 0",
+    "url": "https://hmillerbakewell.github.io/pretty-git-tree",
     "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206180+00:00"
-  },
-  {
-    "title": "Rogue Constellation",
-    "description": "<p>Article URL: <a href=\"https://rogueon.ai/blog/rogue-constellation\">https://rogueon.ai/blog/rogue-constellation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292810\">https://news.ycombinator.com/item?id=50292810</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://rogueon.ai/blog/rogue-constellation",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206184+00:00"
-  },
-  {
-    "title": "Fugazi",
-    "description": "<p>Article URL: <a href=\"https://www.merriam-webster.com/slang/fugazi\">https://www.merriam-webster.com/slang/fugazi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292808\">https://news.ycombinator.com/item?id=50292808</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://www.merriam-webster.com/slang/fugazi",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206188+00:00"
-  },
-  {
-    "title": "Canada to join EU network of supercomputers",
-    "description": "<p>Article URL: <a href=\"https://www.politico.eu/article/canada-joining-eu-supercomputer-network/\">https://www.politico.eu/article/canada-joining-eu-supercomputer-network/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292802\">https://news.ycombinator.com/item?id=50292802</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
-    "url": "https://www.politico.eu/article/canada-joining-eu-supercomputer-network/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206191+00:00"
-  },
-  {
-    "title": "Show HN: Rankings of the state of the art, each figure sourced from the maker",
-    "description": "<p>Article URL: <a href=\"https://tminuslabs.space/\">https://tminuslabs.space/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292788\">https://news.ycombinator.com/item?id=50292788</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://tminuslabs.space/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206195+00:00"
-  },
-  {
-    "title": "Renewables' Share of Electricity Is Rising While Nuclear Falling",
-    "description": "<p>Article URL: <a href=\"https://ourworldindata.org/data-insights/the-world-is-getting-more-of-its-electricity-from-renewables-but-less-from-nuclear-power\">https://ourworldindata.org/data-insights/the-world-is-getting-more-of-its-electricity-from-renewables-but-less-from-nuclear-power</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292776\">https://news.ycombinator.com/item?id=50292776</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://ourworldindata.org/data-insights/the-world-is-getting-more-of-its-electricity-from-renewables-but-less-from-nuclear-power",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206199+00:00"
-  },
-  {
-    "title": "Show HN: Makr – find nearby co-founders",
-    "description": "<p>Article URL: <a href=\"https://makr.breadbowl.ai/\">https://makr.breadbowl.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292772\">https://news.ycombinator.com/item?id=50292772</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://makr.breadbowl.ai/",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206203+00:00"
-  },
-  {
-    "title": "You Can Patch Everything [video]",
-    "description": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=Hxqh2LS6vMs\">https://www.youtube.com/watch?v=Hxqh2LS6vMs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292742\">https://news.ycombinator.com/item?id=50292742</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://www.youtube.com/watch?v=Hxqh2LS6vMs",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206206+00:00"
-  },
-  {
-    "title": "Quantum measurement and importance of Dirac's bra",
-    "description": "<p>Article URL: <a href=\"http://science-memo.blogspot.com/2026/10/bra-quantum-measurment.html\">http://science-memo.blogspot.com/2026/10/bra-quantum-measurment.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292729\">https://news.ycombinator.com/item?id=50292729</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
-    "url": "http://science-memo.blogspot.com/2026/10/bra-quantum-measurment.html",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206211+00:00"
-  },
-  {
-    "title": "The Wall Street Math Hustle (2018)",
-    "description": "<p>Article URL: <a href=\"https://www.institutionalinvestor.com/article/2bsxfy3l5c9c9is6jxngg/opinion/the-wall-street-math-hustle\">https://www.institutionalinvestor.com/article/2bsxfy3l5c9c9is6jxngg/opinion/the-wall-street-math-hustle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50292724\">https://news.ycombinator.com/item?id=50292724</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-    "url": "https://www.institutionalinvestor.com/article/2bsxfy3l5c9c9is6jxngg/opinion/the-wall-street-math-hustle",
-    "source": "Hacker News",
-    "label": "Developer Projects",
-    "discovered_at": "2026-10-29T17:47:49.206215+00:00"
-  },
-  {
-    "title": "Arco",
-    "description": "<p>\n            GitHub and Linear issues, right inside your Codex\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/arco-4?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296725?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/arco-4",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363643+00:00"
-  },
-  {
-    "title": "Floot in ChatGPT",
-    "description": "<p>\n            Build and publish real apps without leaving ChatGPT\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/floot?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296361?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/floot",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363662+00:00"
-  },
-  {
-    "title": "Polylane for ChatGPT",
-    "description": "<p>\n            Ask ChatGPT what broke in production\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/polylane?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296440?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/polylane",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363668+00:00"
-  },
-  {
-    "title": "Scape",
-    "description": "<p>\n            An intelligent email inbox that works for you\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/scape-4?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1288102?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/scape-4",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363673+00:00"
-  },
-  {
-    "title": "TopAgent",
-    "description": "<p>\n            Drive B2B event attendance with an AI agent\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/topmessage?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1285420?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/topmessage",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363678+00:00"
-  },
-  {
-    "title": "Viggle JST-2",
-    "description": "<p>\n            JST-2: 3D scenes, characters and motion from one model\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/viggle-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1285850?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/viggle-ai",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363682+00:00"
-  },
-  {
-    "title": "IFTTT.ai",
-    "description": "<p>\n            The easiest way to automate anything\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/ifttt?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296248?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/ifttt",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363687+00:00"
-  },
-  {
-    "title": "OutreachGuy",
-    "description": "<p>\n            The AI SDR that works the leads you never followed up\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/outreachguy?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1285117?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/outreachguy",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363691+00:00"
-  },
-  {
-    "title": "ChatInbox",
-    "description": "<p>\n            Email that groups your inbox by contact\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/chatinbox-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1241773?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/chatinbox-2",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363695+00:00"
-  },
-  {
-    "title": "Empacer",
-    "description": "<p>\n             The voice-first assistant for small business owners\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/empacer?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1294677?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/empacer",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363699+00:00"
-  },
-  {
-    "title": "Voxel51 Multimodal",
-    "description": "<p>\n            Better data. Smarter robots. Repeat.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/voxel51?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1294880?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/voxel51",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363703+00:00"
-  },
-  {
-    "title": "Suno MCP",
-    "description": "<p>\n            The music layerfor your AI stack\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/suno?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296260?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/suno",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363707+00:00"
-  },
-  {
-    "title": "AutoShelf 2.6",
-    "description": "<p>\n            Automate any folder on your Mac with if-this-then-that rules\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/autoshelf?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296450?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/autoshelf",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363712+00:00"
-  },
-  {
-    "title": "JIMMY",
-    "description": "<p>\n            JIMMY is an AI agent that runs on your PC\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/jimmy?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1291921?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/jimmy",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363716+00:00"
-  },
-  {
-    "title": "Smart Jelly",
-    "description": "<p>\n            Your everyday AI tools and memory in one Mac app.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/smart-jelly?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1295773?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/smart-jelly",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363720+00:00"
-  },
-  {
-    "title": "Radar",
-    "description": "<p>\n            You don't need an AI SRE. Give your agent Radar.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/radar-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1295110?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/radar-7",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363724+00:00"
-  },
-  {
-    "title": "Intrascope 2.0",
-    "description": "<p>\n            New AI agent, 1,650+ apps, Skills and smart model routing\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/intrascope-app?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1293404?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/intrascope-app",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363728+00:00"
-  },
-  {
-    "title": "Notch Metrics",
-    "description": "<p>\n            Put your revenue and product analytics metrics in the notch\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/notch-metrics?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1295697?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/notch-metrics",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363732+00:00"
-  },
-  {
-    "title": "Gemini 4 Carbon",
-    "description": "<p>\n            Google's next frontier model\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1296195?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/gemini-4-carbon",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363737+00:00"
-  },
-  {
-    "title": "Confetti",
-    "description": "<p>\n            Easiest way to build hardware gadgets using plain English\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/confetti-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1295225?app_id=339\">Link</a>\n          </p>",
-    "url": "https://www.producthunt.com/products/confetti-5",
-    "source": "Product Hunt",
-    "label": "New Websites",
-    "discovered_at": "2026-10-29T17:47:49.363741+00:00"
+    "label": "Needs Review",
+    "discovered_at": "2026-10-29T17:47:49.206146+00:00"
   }
 ]
